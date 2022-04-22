@@ -1,0 +1,103 @@
+BKMSG0 
+BKMSG1 <b>CAUTION</b> - File contains Rounded Rectangular pads not supported by this version of the software. These pads have been converted to the Round shape.
+BKMSG10 <b>CAUTION</b> - File may contain Component Bodies with linked STEP models. These models will be discarded.
+BKMSG11 <b>CAUTION</b> - Vias support varying diameters across layerstack. If this feature is used in design, extra values will be discarded.
+BKMSG12 <b>CAUTION</b> - File may contain pads with hole offsets. Hole offset information will be discarded.
+BKMSG13 <b>CAUTION</b> - File contains new manufacturing rules. Hole To Hole clearance, Minimum solder mask sliver, Silkscreen Over Exposed Copper and Silkscreen To Silkscreen Clearance rules were introduced in Altium Designer Winter 09.These rules will be discarded.
+BKMSG14 <b>CAUTION</b> - 3D models now support texturing.If used in design these textures will be discarded.
+BKMSG15 <b>CAUTION</b> - File contains new custom violations that replaced the old violation objects. These violations were introduced in Altium Designer Summer 09. The new custom violations will be discarded.
+BKMSG16 <b>CAUTION</b> - Support was added for 32 Mechanical Layers. Objects on mechanical layers beyond 16 have been moved to Mechanical Layer 16.
+BKMSG17 <b>CAUTION</b> - File contains assembly testpoint rules and/or settings.  Assembly testpoint information will be discarded.
+BKMSG18 <b>CAUTION</b> - New Custom Grids and Guides were introduced. Be aware that your design might contain Custom Grids and Guides that cannot be read in previous versions. 
+BKMSG19 <b>CAUTION</b> - New Structured Clusters were introduced. Be aware that your design might contain Structured Clusters that cannot be read in previous versions. 
+BKMSG2 <b>CAUTION</b> - File contains one or more Solid Regions containing boundary arcs. These arcs have been converted to linear segments that approximate the arc.
+BKMSG20 <b>CAUTION</b> - New PCB 3D Movie Manager was introduced. Be aware that your design might contain 3D PCB movie that cannot be read in previous versions. 
+BKMSG21 <b>CAUTION</b> - New Clearance Rule subscopes targeting differential pairs  were introduced. Be aware that your design might contain Clearance Rules using those subscopes that cannot be read in previous versions. 
+BKMSG22 <b>CAUTION</b> - Support of Solder Mask and Paste Mask expansions for Tracks, Arcs, Fills and Regions was introduced. Be aware that your design might contain Solder Mask and Paste Mask expansions for these types of primitives that cannot be read in the version of Altium Designer you are currently using. 
+BKMSG23 <b>CAUTION</b> - Air Gap Width previously controlled by Clearance rule is now controlled by Polygon Connect Style rule's newly introduced Air Gap Width (set to default value). Suggest reviewing each Polygon Connect Style rule's Air Gap Width attribute for correctness.
+BKMSG24 <b>CAUTION</b> - Silk To Solder Mask Clearance Rules are converted to Silkscreen Over Component Pads Rules.
+BKMSG25 <b>CAUTION</b> - The Differential Pairs Routing rule added support for control of the width. Be aware that these widths must be manually entered as Width rules in this version.
+BKMSG26 <b>CAUTION</b> - Support of separate solder masks for top & bottom of pads added.
+BKMSG27 <b>CAUTION</b> - Support Multi-line PCB Text added.
+BKMSG28 <b>CAUTION</b> - Pad/Via hole size tolerance value added.
+BKMSG29 <b>CAUTION</b> - Component parameters added.
+BKMSG3 <b>CAUTION</b> - File contains one or more Component Bodies containing boundary arcs. These arcs have been converted to linear segments that approximate the arc.
+BKMSG30 <b>CAUTION</b> - Support of backdrilling
+BKMSG31 <b>CAUTION</b> - Support of waived violations
+BKMSG32 <b>CAUTION</b> - Support of object specific keepouts
+BKMSG33 <b>CAUTION</b> - Support of propagation delay for primitives
+BKMSG4 <b>CAUTION</b> - File contains one or more Matched Length Rules. Rule atributes have been changed. Rule does not support pattern related attributes (amplitude, gap) anymore they are treated as tool attibutes instead.Rule is enhanced with subscoping attributes - allowing checking between nets in the same differential pair, between differential pairs as well as other electrical objects
+BKMSG5 <b>CAUTION</b> - Board cutout objects introduced. Be aware that if your design contains board cutouts, they cannot be read in previous versions.
+BKMSG6 <b>CAUTION</b> - New type of text - barcode text was introduced. Be aware that if your design contains barcodes they cannot be read in previous versions.
+BKMSG7 <b>CAUTION</b> - Polygon/Layer dependent connect style rule for pads and vias was introduced. First scope should define pads/vias while 2nd scope should define polygons.Second scope is not readable in versions prior to 6.8 and is assumed to be 'All'.
+BKMSG8 <b>CAUTION</b> - File contains one or more Component Bodies containing embedded STEP models. These models have be discarded.
+BKMSG9 <b>CAUTION</b> - File contains one or more Components with pads with Pad Jumper IDs. The pads Pad Jumper ID fields have been discarded.
+COUNT "
+FWDMSG0 <b>CAUTION</b> - Via connections to both hatched and solid signal layer polygons are now controlled by the polygon connect style rule. Re-pouring polygons may result in physical copper differences.
+FWDMSG1 
+FWDMSG10 
+FWDMSG11 
+FWDMSG12 
+FWDMSG13 
+FWDMSG14 
+FWDMSG15 <b>CAUTION</b> - File contains old violation objects. These violations are no longer supported & will not be loaded. Please run DRC after opening this file in order to refresh the violations.
+FWDMSG16 
+FWDMSG17 <b>CAUTION</b> - Existing testpoint rules and settings are used as fabrication testpoint information.
+FWDMSG18 
+FWDMSG19 
+FWDMSG2 
+FWDMSG20 
+FWDMSG21 
+FWDMSG22 
+FWDMSG23 <b>CAUTION</b> - Air Gap Width previously controlled by Clearance rule is now controlled by Polygon Connect Style rule's newly introduced Air Gap Width (set to default value). Suggest reviewing each Polygon Connect Style rule's Air Gap Width attribute for correctness.
+FWDMSG24 <b>CAUTION</b> - Silkscreen Over Component Pads Rules are converted to Silk To Solder Mask Clearance Rules. Suggest examining rule scopes for accuracy.
+FWDMSG25 
+FWDMSG26 
+FWDMSG27 
+FWDMSG28 
+FWDMSG29 
+FWDMSG3 
+FWDMSG30 
+FWDMSG31 
+FWDMSG32 
+FWDMSG33 
+FWDMSG4 
+FWDMSG5 
+FWDMSG6 
+FWDMSG7 
+FWDMSG8 
+FWDMSG9 
+VER0 6.3
+VER1 6.6
+VER10 7.0
+VER11 Winter 09
+VER12 Winter 09
+VER13 Winter 09
+VER14 Winter 09
+VER15 Summer 09
+VER16 Summer 09
+VER17 Summer 09
+VER18 Release 10
+VER19 Release 10
+VER2 6.8
+VER20 Release 10
+VER21 Release 10 update 1
+VER22 Release 10 update 15
+VER23 Release 12
+VER24 Release 13
+VER25 Release 14
+VER26 Release 15
+VER27 Release 15.1
+VER28 Release 16.0
+VER29 Release 17.0
+VER3 6.8
+VER30 Release 17.0
+VER31 Release 17.1
+VER32 Release 17.1
+VER33 Release 20.0
+VER4 6.8
+VER5 6.8
+VER6 6.8
+VER7 6.8
+VER8 6.9
+VER9 6.9
