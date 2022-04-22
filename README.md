@@ -7,6 +7,10 @@ The main IC is labled as **HFD1101KBA** and based off the firmware installer it 
 
 https://www.sonix.com.tw/article-en-4336-30356
 
+Added **SN32F240B_32.hex** from the firmware installer for the RK61
+
+Added **royal_kludge_rk61_default.hex**
+
 ## KiCad
 ![image](https://user-images.githubusercontent.com/22775719/164579265-2aaa3ba5-16f6-4fdd-8b54-f01aaa6d67c7.png)
 ## Altium
