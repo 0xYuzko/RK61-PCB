@@ -1,0 +1,31 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Salt.PrjPcb]
+   Generated File[PCB1.GTL]
+   Generated File[PCB1.GBL]
+   Generated File[PCB1.GPB]
+   Generated File[PCB1.GPT]
+   Generated File[PCB1.GTO]
+   Generated File[PCB1.GTP]
+   Generated File[PCB1.GTS]
+   Generated File[PCB1.GBS]
+   Generated File[PCB1.GBP]
+   Generated File[PCB1.GBO]
+   Generated File[PCB1.GKO]
+   Generated File[PCB1.3D Top]
+   Generated File[PCB1.Courtyard Top]
+   Generated File[PCB1.Test Points Top]
+   Generated File[PCB1.Test Points Bottom]
+   Generated File[PCB1.GML]
+   Generated File[PCB1.1]
+   Generated File[PCB1.GD1]
+   Generated File[PCB1.GG1]
+   Generated File[PCB1.RUL]
+   Generated File[PCB1.EXTREP]
+   Generated File[PCB1.REP]
+
+
+Files Generated   : 22
+Documents Printed : 0
+
+Finished Output Generation At 9:25:49 PM On 1/29/2021
